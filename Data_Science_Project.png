@@ -1,0 +1,242 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "id": "f01c372e-ccc2-4618-bbde-1919a8b30410",
+   "metadata": {
+    "tags": []
+   },
+   "source": [
+    "# Data Science Project"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "568d2bef-d160-46ad-93f2-92ca63f5e6b4",
+   "metadata": {
+    "jp-MarkdownHeadingCollapsed": true,
+    "tags": []
+   },
+   "source": [
+    "#### Introduction\n",
+    "This notebook presents a comprehensive analysis of Data Science."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "60b8c3f3-3fc8-428a-b639-5633ed660d99",
+   "metadata": {
+    "tags": []
+   },
+   "source": [
+    "## Data Science Libraries\n",
+    "\n",
+    "Some of the most commonly used libraries:\n",
+    "\n",
+    "- **NumPy**: A fundamental package for scientific computing with Python. It provides support for arrays, matrices, and many mathematical functions.\n",
+    "- **pandas**: A powerful data manipulation and analysis library that provides data structures like DataFrames to handle structured data efficiently.\n",
+    "- **Matplotlib**: A plotting library for creating static, animated, and interactive visualizations in Python.\n",
+    "- **Seaborn**: A statistical data visualization library based on Matplotlib. It provides a high-level interface for drawing attractive and informative statistical graphics.\n",
+    "- **Scikit-learn**: A machine learning library that provides simple and efficient tools for data mining and data analysis. It supports various supervised and unsupervised learning algorithms.\n",
+    "- **TensorFlow**: An open-source platform for machine learning, developed by the Google Brain team. It provides a comprehensive ecosystem of tools, libraries, and community resources.\n",
+    "- **Keras**: An open-source software library that provides a Python interface for artificial neural networks. Keras acts as an interface for the TensorFlow library.\n",
+    "- **SciPy**: A library used for scientific and technical computing. It builds on NumPy and provides a large number of higher-level functions that operate on NumPy arrays.\n",
+    "- **Statsmodels**: A library for estimating and testing statistical models. It provides classes and functions for the estimation of many different statistical models.\n",
+    "- **NLTK**: The Natural Language Toolkit, a suite of libraries and programs for symbolic and statistical natural language processing (NLP) for English written in Python.\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "244ae4da-f600-4894-85d9-60d4280c150b",
+   "metadata": {
+    "jp-MarkdownHeadingCollapsed": true,
+    "tags": []
+   },
+   "source": [
+    "## Commonly Used Data Science Languages\n",
+    "\n",
+    "In the field of data science, several programming languages are widely used for data analysis, manipulation, and visualization. Below are some of the most popular languages:\n",
+    "\n",
+    "### Python\n",
+    "Python is a versatile and powerful programming language that is extensively used in data science. It has a rich ecosystem of libraries and frameworks such as pandas, numpy, matplotlib, and scikit-learn, which make it ideal for data manipulation, analysis, and machine learning.\n",
+    "\n",
+    "### R\n",
+    "R is a language specifically designed for statistical computing and graphics. It is highly popular among statisticians and data miners for developing statistical software and data analysis. R provides a wide variety of statistical and graphical techniques, and is highly extensible through packages such as ggplot2 and dplyr.\n",
+    "\n",
+    "### SQL\n",
+    "SQL (Structured Query Language) is essential for managing and querying relational databases. It is used to extract, manipulate, and manage data stored in relational database management systems (RDBMS). Knowledge of SQL is crucial for data scientists to interact with large datasets stored in databases.\n",
+    "\n",
+    "### Julia\n",
+    "Julia is a high-level, high-performance programming language for technical computing. It is gaining popularity in the data science community due to its speed and efficiency in handling complex numerical and computational tasks. Julia is particularly noted for its capabilities in numerical analysis and computational science.\n",
+    "\n",
+    "### Scala\n",
+    "Scala is a powerful language that combines object-oriented and functional programming paradigms. It is used in data science for its scalability and is often employed with big data tools such as Apache Spark. Scala's ability to handle concurrent data processing makes it suitable for large-scale data analytics.\n",
+    "\n",
+    "These languages provide a solid foundation for data scientists to perform various tasks, from data cleaning and analysis to building sophisticated machine learning models.\n",
+    "<small>"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "c58b6cf1-6683-4d04-894e-982bc16d85f8",
+   "metadata": {
+    "jp-MarkdownHeadingCollapsed": true,
+    "tags": []
+   },
+   "source": [
+    "## Data Science Tools\n",
+    "\n",
+    "| Tool           | Description                                                                 |\n",
+    "|----------------|-----------------------------------------------------------------------------|\n",
+    "| Jupyter Notebook | An open-source web application that allows you to create and share documents that contain live code, equations, visualizations, and narrative text. |\n",
+    "| RStudio        | An integrated development environment (IDE) for R, a programming language for statistical computing and graphics. |\n",
+    "| Apache Spark   | An open-source unified analytics engine for large-scale data processing, with built-in modules for streaming, SQL, machine learning, and graph processing. |\n",
+    "| TensorFlow     | An open-source platform for machine learning, providing a comprehensive ecosystem of tools, libraries, and community resources. |\n",
+    "| Tableau        | A powerful data visualization tool that is used for converting raw data into an understandable format of graphs and charts. |\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "58109179-af85-44df-9592-6a9bfce3e789",
+   "metadata": {
+    "tags": []
+   },
+   "source": [
+    "## Arithmetic Expression Examples\n",
+    "\n",
+    "Here are some common examples:\n",
+    "\n",
+    "### Addition\n",
+    "The addition of two numbers is represented by the `+` symbol.\n",
+    "Example: \\( 3 + 5 = 8 \\)\n",
+    "\n",
+    "### Subtraction\n",
+    "The subtraction of two numbers is represented by the `-` symbol.\n",
+    "Example: \\( 10 - 4 = 6 \\)\n",
+    "\n",
+    "### Multiplication\n",
+    "The multiplication of two numbers is represented by the `*` symbol.\n",
+    "Example: \\( 6 * 7 = 42 \\)\n",
+    "\n",
+    "### Division\n",
+    "The division of two numbers is represented by the `/` symbol.\n",
+    "Example: \\( 20 / 4 = 5 \\)\n",
+    "\n",
+    "### Exponentiation\n",
+    "Exponentiation is represented by the `**` symbol.\n",
+    "Example: \\( 2^{3} = 2 * 2 * 2 = 8 \\)\n",
+    "\n",
+    "### Modulus\n",
+    "The modulus operation finds the remainder of division of one number by another and is represented by the `%` symbol.\n",
+    "Example: \\( 10 \\% 3 = 1 \\)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "id": "de06662a-ec21-4ff3-8d5a-0f73444b3ae9",
+   "metadata": {
+    "tags": []
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "The result of multiplying 5 and 3 is: 15\n",
+      "The result of adding 5, 3, and 2 is: 10\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Define the numbers\n",
+    "a = 5\n",
+    "b = 3\n",
+    "c = 2\n",
+    "\n",
+    "# Multiply the numbers\n",
+    "multiplication_result = a * b\n",
+    "\n",
+    "# Add the numbers\n",
+    "addition_result = a + b + c\n",
+    "\n",
+    "# Print the results\n",
+    "print(f\"The result of multiplying {a} and {b} is: {multiplication_result}\")\n",
+    "print(f\"The result of adding {a}, {b}, and {c} is: {addition_result}\")\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "id": "81ff10b3-d174-4216-b4e1-6e5f0c5083b6",
+   "metadata": {
+    "tags": []
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "150 minutes is equal to 2.5 hours.\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Define the number of minutes\n",
+    "minutes = 150\n",
+    "\n",
+    "# Convert minutes to hours\n",
+    "hours = minutes / 60\n",
+    "\n",
+    "# Print the result\n",
+    "print(f\"{minutes} minutes is equal to {hours} hours.\")\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "1324953c-9204-4631-b7ee-3cf802aea499",
+   "metadata": {},
+   "source": [
+    "## Objectives\n",
+    "\n",
+    "The main objectives of this project are:\n",
+    "\n",
+    "- **Understand the basics of data science**: Learn about the fundamental concepts and tools used in data science.\n",
+    "- **Project implementation**: Apply the learned techniques to a real-world dataset to derive meaningful insights and present findings.\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "13e6eda0-63d3-4c51-a8bc-f2df3308270e",
+   "metadata": {},
+   "source": [
+    "## Author\n",
+    "\n",
+    "This notebook was created by:\n",
+    "\n",
+    "**[Shahad Alzamil]**\n"
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.11.3"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
